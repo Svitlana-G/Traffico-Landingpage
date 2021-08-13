@@ -23,7 +23,6 @@ const Header = () => {
                 </nav>
                 <h1>Your awesome traffic permit consultant.</h1>
                 <Button text="Get started" />
-
             </div>
             <Image src={mobel} alt="" />
         </section>

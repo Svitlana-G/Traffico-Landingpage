@@ -1,6 +1,9 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Header from '../components/Header'
+import ImageText from '../components/ImageText'
+import illustration1 from '../public/img/illustration-1.png'
+import illustration2 from '../public/img/illustration-2.png'
 
 export default function Home() {
   return (
@@ -11,6 +14,21 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
+      <ImageText
+        direction={false}
+        header="ABOUT US"
+        text="The occupational traffic permit is one of the most important things in the company when carrying out freight transport.  In fact, it is a prerequisite for doing business traffic at all. "
+        text2="How do you do when you need to obtain 
+      a commercial traffic permit for freight transport to your business?"
+        image={illustration1}
+      />
+      <ImageText
+        direction={true}
+        header="How to apply"
+        text="When applying for a traffic permit, there are certain requirements that you must meet that are included in the examination: requirements for professional knowledge, solid establishment, good reputation and financial resources. Important to remember is to confirm your application for a traffic permit by the company's company signer or CEO."
+        text2=""
+        image={illustration2}
+      />
     </div>
   )
 }
