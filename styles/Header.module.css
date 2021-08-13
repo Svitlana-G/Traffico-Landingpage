@@ -1,0 +1,51 @@
+.background{
+    background-image: url("/img/scene.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+.header h1{
+    font-family: 'DM Serif Display', serif;
+    color:#fff;
+    font-size: 6.25rem;
+    line-height: 100%;
+    padding: 0 27% 0 16%;
+}
+
+.header ul{
+    display: flex;
+    list-style: none;
+    color: #fff;
+    width: 50%; 
+    align-items: center;
+}
+
+.header ul li {
+    font-weight: bold;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding-right: 4rem;
+    white-space: nowrap;
+}
+.header nav{
+    display: flex;
+    /* padding-left: 16%;
+    padding-right: 16%; */
+    justify-content: space-between;
+    width: 68%;
+    margin: 0 auto;
+    align-items: center;
+    padding-top: 5vh;
+}
+
+
+.background{
+    padding-bottom: 30vh;
+}
+
+.image{
+    padding-bottom: -10vh;
+}
+
+
