@@ -4,6 +4,7 @@ import Header from '../components/Header'
 import ImageText from '../components/ImageText'
 import illustration1 from '../public/img/illustration-1.png'
 import illustration2 from '../public/img/illustration-2.png'
+import Footer from '../components/Footer'
 
 export default function Home() {
   return (
@@ -29,6 +30,7 @@ export default function Home() {
         text2=""
         image={illustration2}
       />
+      <Footer />
     </div>
   )
 }
