@@ -7,10 +7,15 @@ import logo from '..//public/img/logo.png'
 import f from '../public/img/f.png'
 import i from '../public/img/i.png'
 import t from '../public/img/t.png'
+import lkw from '../public/img/lkw.png'
 
 const Footer = () => {
     return (
         <section className={footerStyle.footer}>
+            <div className={footerStyle.auto}>
+                <Image src={lkw} alt="" />
+            </div>
+
             <div className={footerStyle.background}>
                 <div className={footerStyle.button}>
                     <p>We provide traffic management consultants so you get started quickly, contact us for a quote today!</p>
