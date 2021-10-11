@@ -15,8 +15,8 @@ const Header = () => {
 
                     <ul>
                         <li><Link href=""><a >About</a></Link></li>
-                        <li><Link href=""><a >How to</a></Link></li>
-                        <li><Link href=""><a >FAQS</a></Link></li>
+                        <li><Link href="/"><a >How to</a></Link></li>
+                        <li><Link href="/faq"><a >FAQS</a></Link></li>
                         <Button text="Contact us" />
                     </ul>
 
@@ -24,7 +24,10 @@ const Header = () => {
                 <h1>Your awesome traffic permit consultant.</h1>
                 <Button text="Get started" />
             </div>
-            <Image src={mobel} alt="" />
+            <div className={headerStyle.mobel}>
+                <Image src={mobel} alt="" />
+            </div>
+
         </section>
     );
 }
