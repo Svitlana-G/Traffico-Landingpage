@@ -1,6 +1,7 @@
 .header {
     display: flex;
     margin: 0 5%;
+    background-color: #FDEDE8;
  }
 .header p{
     color: #EE4D47;
@@ -31,12 +32,41 @@
 }
 
 .faq{
-    /* background-image: url("/img/fon.png");
-    background-position: cover;
-    background-repeat: no-repeat; */
     margin-right: 7%;
     background-color: #FDEDE8;
     margin-top: 15vh;
     margin-left: 15%;
     border-radius: 100px 0 0 0;
+    padding-bottom: 15vh;
  }
+
+ .fragen {
+    display: flex;
+    flex-grow: 1;
+    margin-left: -15%;
+    margin-top: 10vh;
+    margin-right: 15%;
+ }
+ .fragen section {
+    flex:1;
+ }
+ 
+.frage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    margin-bottom: 1vh;
+    margin-right: 5%;
+    padding: 1vh 5%;
+    border-radius: 1rem;
+    height: 10vh;
+    box-shadow: 0px 20px 40px rgba(238, 77, 71, 0.1);
+}
+.frage p{
+    font-size: 1.125rem;
+    padding-right: 10%;
+    font-weight: 500;
+    line-height: 1.875rem;
+    width: 85%;
+}
